@@ -1,0 +1,667 @@
+@font-face {
+    font-family: 'Graphik_Semibold';
+    src: local('Graphik LCG Semibold'), local('Graphik-LCG-Semibold'),
+        url('/fonts/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('/fonts/GraphikLCG-Semibold.woff') format('woff'),
+        url('/fonts/GraphikLCG-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Graphik_Regular';
+    src: local('Graphik LCG Regular'), local('Graphik-LCG-Regular'),
+        url('/fonts/GraphikLCG-Regular.woff2') format('woff2'),
+        url('/fonts/GraphikLCG-Regular.woff') format('woff'),
+        url('/fonts/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Graphik_Regular';
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Graphik_Semibold';
+}
+
+.wrapper-main {
+    width: 1519px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-item {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.button {
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.left-but {
+    background-color: white;
+    font-weight: bold;
+    border-color: #5F5A5A;
+}
+
+.left-but:hover {
+    background-color: rgb(248, 207, 152);
+    transition: all 0.3s;
+}
+
+.right-but {
+    color: white;
+    background-color: #FF6336;
+    border: none;
+    height: 39px;
+    font-weight: bold;
+}
+
+.right-but:hover {
+    background-color: #03d403;
+    transition: all 0.3s;
+}
+
+.header-but:hover {
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+/* BLOK - ACCELERATE */
+
+.container-accelerate {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 1519px;
+}
+
+.blok-accelerate {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-text-accelerate {
+    font-size: 50px;
+    margin-left: 80px;
+    font-family: 'Graphik_Semibold';
+    line-height: 60px;
+}
+
+.text-accelerate {
+    margin-top: 50px;
+}
+
+
+.text-accelerates {
+    font-size: 25px;
+    margin-left: 80px;
+    line-height: 35px;
+}
+
+.button-accelerate-try {
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.button-accelerate-book {
+    width: 120px;
+    height: 41px;
+    cursor: pointer;
+    background-color: white;
+    border-color: #5F5A5A;
+    margin-top: 50px;
+}
+
+.button-accelerate-book:hover {
+    background-color: rgb(248, 207, 152);
+    transition: all 0.3s;
+}
+
+.button-accelerate-try {
+    color: white;
+    background-color: #FF6336;
+    border: none;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.button-accelerate-try:hover {
+    background-color: #03d403;
+    transition: all 0.3s;
+}
+
+.lower-text-accelerate {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.accelerate-img {
+    margin-right: 100px;
+}
+
+/* ORANGE - BLOK */
+
+.orange-box {
+    background-color: #FF9C7D;
+}
+
+.orange-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Graphik_Semibold';
+    line-height: 60px;
+}
+
+.blok-one {
+    padding-top: 120px;
+}
+
+.blok-two {
+    padding-bottom: 50px;
+}
+
+.main-orange-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+/* БЛОК - С ОБТЕКАЕМЫМИ КАРТИНКАМИ 3-1 */
+
+
+.BLOCK-WITH-FLOWED-PICTURES {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1519px;
+}
+
+.main-text-inner-flowed-h2 {
+    margin-top: 150px;
+}
+
+.text-inner-flowed-h2 {
+    font-size: 50px;
+    font-family: 'Graphik_Semibold';
+}
+
+.main-text-inner-flowed {
+    margin-top: 30px;
+}
+
+.text-inner-flowed {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.text-inner-flowed-start {
+    margin-top: 40px;
+    font-size: 20px;
+    width: 95px;
+    font-family: 'Graphik_Semibold';
+}
+
+.text-inner-flowed-start:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.BLOCK-FLOWED-TEXT {
+    margin-left: 80px;
+}
+
+.BLOCK-FLOWED-img1 {
+    margin-right: 100px;
+}
+
+.span-underline {
+    text-decoration: underline;
+}
+
+/* БЛОК - С ОБТЕКАЕМЫМИ КАРТИНКАМИ 3-2 */
+
+
+.BLOCK-WITH-FLOWED-PICTURES-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    width: 1519px;
+}
+
+.BLOCK-FLOWED-img2 {
+    margin-left: 80px;
+}
+
+.blok-flow-text {
+    margin-right: 320px;
+    margin-top: 140px;
+}
+
+.blok-flow-texth2 {
+    font-size: 50px;
+    font-family: 'Graphik_Semibold';
+}
+
+.blok-flow-text-2 {
+    margin-top: 30px;
+}
+
+.blok-flow-p {
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+
+/* БЛОК - С ОБТЕКАЕМЫМИ КАРТИНКАМИ 3-3 */
+
+.replika {
+    margin-top: 250px;
+}
+
+
+/* блок - localize with Lokalise */
+
+.wrapper-lokalise-blok {
+    background-color:#FFF8E4;
+    margin-top: 150px;
+}
+
+.blok-localize-with-Lokalise {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h2-lokalise, .h2-boost {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 50px;
+}
+
+.h2-lokalise {
+    font-family: 'Graphik_Semibold';
+}
+
+.svg-img {
+    height: 120px;
+    position: relative;
+    right: -65px;
+}
+
+.p-lokalise {
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Graphik_Semibold';
+}
+
+.text-p-lokalise {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.blok-2 {
+    margin-top: 75px;
+    padding-bottom: 120px;
+}
+
+
+/* блок - Boost */
+
+
+.blok-boost {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+    margin-left: 80px;
+}
+
+.h2-boost {
+    padding-top: 155px;
+    font-family: 'Graphik_Semibold';
+}
+
+.p-boost {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 67px;
+    padding-bottom: 35px;
+    font-family: 'Graphik_Semibold';
+}
+
+.svg-img-boost {
+    height: 160px;
+    position: relative;
+    right: px;
+}
+
+.text-p-boost, .link-boost {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.box-link-boost {
+    margin-top: 25px;
+}
+
+.link-boost:hover {
+    text-decoration: underline;
+}
+
+.front {
+    margin-top: 45px;
+}
+
+
+/* блок - lokalise - blue - back */
+
+.wrapper-lok-blue {
+    background-color: #C9E8F2;
+}
+
+.blok-lokalise-blue {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-lokalise-blue {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.p-lokalise-blue-button {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.wrapper-p-lokalize {
+    padding: 65px 0 0 80px;
+}
+
+.img-png-right {
+    padding: 55px 100px 0 0;
+    margin-bottom: 105px;
+}
+
+.img-revolut {
+    margin-top: 20px;
+}
+
+
+/* blok - most - loved */
+
+
+.wrapper-most-loved {
+    background-color:#DABC98;
+}
+
+.blok-most-loved {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px 0 90px 0;
+}
+
+.p-most-loved {
+    font-size: 35px;
+    font-family: 'Graphik_Semibold';
+    line-height: 50px;
+}
+
+.down {
+    padding-top: 30px;
+}
+
+.border-vertical {
+    border-right: 1px solid black;
+}
+
+.img-svg-most-loved {
+    padding-top: 20px;
+}
+
+
+/* BLOK - BIRD */
+
+.blok-down-bird {
+    margin-top: 165px;
+}
+
+.h2p-bird {
+    font-size: 65px;
+    font-family: 'Graphik_Semibold';
+    text-align: center;
+    line-height: 75px;
+}
+
+.p-bird {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.down-p {
+    margin-top: 20px;
+}
+
+.img-bird {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.wrapper-button-integrations {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.button-integrations {
+    color: white;
+    background-color: #FF6336;
+    border: none;
+    height: 50px;
+    width: 190px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 165px;
+    -webkit-transition: 0.3s ease;
+    transition: all 0.3s;
+}
+
+.button-integrations:hover {
+    background-color: #03d403;
+    transition: all 0.3s;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+
+/* BLOK - ORANGE - DOWN */
+
+
+.wrapper-orange-down {
+    background-color:#FF9C7D;
+}
+
+.p-orange-down {
+    text-align: center;
+    font-size: 65px;
+    line-height: 70px;
+    font-family: 'Graphik_Semibold';
+}
+
+.top {
+    padding-top: 120px;
+}
+
+.p-orange-downone {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.wrap-try-black {
+    text-align: center;
+    margin-top: 55px;
+    padding-bottom: 160px;
+}
+
+.button-try-black {
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    height: 60px;
+    width: 160px;
+    -webkit-transition: 1s ease;
+    transition: all 1s;
+    
+}
+
+.button-try-black:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    transition: all 0.5s;
+}
+
+
+/* BLOK - FOOTER  */
+
+.wrapper-footer {
+    background-color:#EEEEEE;
+}
+
+.blok-footer {
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.h2-footer {
+    font-size: 40px;
+    font-family: 'Graphik_Semibold';
+    margin-bottom: 25px;
+}
+
+.link-footer-column {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.link-footer {
+    font-size: 15px;
+}
+
+.link-footer:hover {
+    text-decoration: underline 2px;
+}
+
+.blok-legal {
+    margin-right: 150px;
+}
+
+.h2-links-blok {
+    font-size: 20px;
+    font-family: 'Graphik_Semibold';
+    margin-bottom: 15px;
+}
+
+.img-special {
+    width: 90px;
+    margin-top: 38px;
+    margin-bottom: 23px;
+}
+
+.text-footer {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.bottom-footer {
+    margin-bottom: 95px;
+}
+
+.lineh {
+    line-height: 17px;
+}
+
+/* LAST - BLOK  */
+
+.wrapper-last-blok {
+    background-color:#EEEEEE;
+}
+
+
+.blok-last {
+    margin: 0 auto;
+    border-top: 1px solid black;
+    width: 1360px;
+    padding-top: 52px;
+}
+
+.blok-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blok-img-text {
+    display: flex;
+}
+
+.img-foot-last {
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.text-foot-last {
+    font-size: 12px;
+}
+
+.text-foot-right {
+    margin-right: 76px;
+    margin-bottom: 75px;
+}
