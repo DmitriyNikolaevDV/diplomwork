@@ -113,6 +113,7 @@ button {
     margin-left: 80px;
     font-family: 'Graphik_Semibold';
     line-height: 60px;
+    font-weight: bold;
 }
 
 .text-accelerate {
@@ -185,10 +186,12 @@ button {
 
 .blok-one {
     padding-top: 120px;
+    font-weight: bold;
 }
 
 .blok-two {
     padding-bottom: 50px;
+    font-weight: bold;
 }
 
 .main-orange-img {
@@ -215,6 +218,7 @@ button {
 .text-inner-flowed-h2 {
     font-size: 50px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .main-text-inner-flowed {
@@ -232,6 +236,7 @@ button {
     font-size: 20px;
     width: 95px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .text-inner-flowed-start:hover {
@@ -273,6 +278,7 @@ button {
 .blok-flow-texth2 {
     font-size: 50px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .blok-flow-text-2 {
@@ -314,6 +320,7 @@ button {
 
 .h2-lokalise {
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .svg-img {
@@ -328,6 +335,7 @@ button {
     margin-bottom: 20px;
     font-size: 25px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .text-p-lokalise {
@@ -358,6 +366,7 @@ button {
 .h2-boost {
     padding-top: 155px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .p-boost {
@@ -366,6 +375,7 @@ button {
     padding-top: 67px;
     padding-bottom: 35px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .svg-img-boost {
@@ -443,6 +453,7 @@ button {
 .p-most-loved {
     font-size: 35px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
     line-height: 50px;
 }
 
@@ -468,6 +479,7 @@ button {
 .h2p-bird {
     font-size: 65px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
     text-align: center;
     line-height: 75px;
 }
@@ -526,6 +538,7 @@ button {
     font-size: 65px;
     line-height: 70px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
 }
 
 .top {
@@ -582,6 +595,7 @@ button {
 .h2-footer {
     font-size: 40px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
     margin-bottom: 25px;
 }
 
@@ -606,6 +620,7 @@ button {
 .h2-links-blok {
     font-size: 20px;
     font-family: 'Graphik_Semibold';
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
